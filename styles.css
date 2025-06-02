@@ -5,6 +5,10 @@
   font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+:root {
+  --main-primary-color: #36b864;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -47,7 +51,7 @@ body {
   display: block;
   height: 4px;
   width: 100%;
-  background: #22b15e;
+  background: var(--main-primary-color);
   border-radius: 2px;
   transition: 0.3s;
 }
@@ -134,7 +138,7 @@ body {
 }
 
 .green {
-  color: #36b864;
+  color: var(--main-primary-color);
 }
 
 .nav-links {
@@ -151,13 +155,13 @@ body {
 
 .nav-links a.active,
 .nav-links a:hover {
-  color: #36b864;
+  color: var(--main-primary-color);
   transform: scale(1.08);
   transition: transform;
 }
 
 .cta-button {
-  background-color: #36b864;
+  background-color: var(--main-primary-color);
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
@@ -167,7 +171,7 @@ body {
 }
 
 .cta-button:hover {
-  background-color: #22b15e;
+  background-color: var(--main-primary-color);
   transform: scale(1.08);
   transition: transform 0.2s;
 }
@@ -213,7 +217,7 @@ body {
 }
 
 .primary-btn {
-  background-color: #22b15e;
+  background-color: var(--main-primary-color);
   color: white;
   padding: 14px 28px;
   border-radius: 10px;
@@ -222,7 +226,7 @@ body {
 }
 
 .primary-btn:hover{
-  background-color: #22b15e;
+  background-color: var(--main-primary-color);
   color: white;
   border-color: transparent;
   transform: scale(1.08);
@@ -239,7 +243,7 @@ body {
 }
 
 .secondary-btn:hover{
-  background-color: #22b15e;
+  background-color: var(--main-primary-color);
   color: white;
   border-color: transparent;
   transform: scale(1.08);
@@ -466,7 +470,7 @@ body {
 
 .toggle-btn {
   background: #fff;
-  color: #22b15e;
+  color: var(--main-primary-color);
   border: none;
   border-radius: 24px;
   padding: 8px 32px;
@@ -478,7 +482,7 @@ body {
 
 .toggle-btn.active,
 .toggle-btn:hover {
-  background: #22b15e;
+  background: var(--main-primary-color);
   color: #fff;
   border: 2px solid #fff;
 }
@@ -523,7 +527,7 @@ body {
 }
 
 .price-amount {
-  background: #36b864;
+  background: var(--main-primary-color);
   color: #fff;
   border-radius: 10px;
   padding: 16px 0;
@@ -718,7 +722,7 @@ body {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: #36b864;
+  background: var(--main-primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1141,7 +1145,7 @@ body {
 }
 
 .footer-links a:hover {
-  color: #36b864;
+  color: var(--main-primary-color);
 }
 
 .footer-newsletter {
@@ -1163,7 +1167,7 @@ body {
 }
 
 .footer-newsletter input[type="email"]:focus {
-  border-color: #36b864;
+  border-color: var(--main-primary-color);
 }
 
 .footer-newsletter .primary-btn {
@@ -1172,7 +1176,7 @@ body {
   padding: 12px 0;
   border-radius: 10px;
   border: none;
-  background: #36b864;
+  background: var(--main-primary-color);
   color: #fff;
   font-weight: 600;
   cursor: pointer;
@@ -1180,7 +1184,7 @@ body {
 }
 
 .footer-newsletter .primary-btn:hover {
-  background: #22b15e;
+  background: var(--main-primary-color);
 }
 
 .footer-divider {
