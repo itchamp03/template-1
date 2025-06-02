@@ -514,7 +514,7 @@ body {
 
 .price-card.featured {
   box-shadow: 0 8px 32px rgba(34,177,94,0.15);
-  border: 2px solid #22b15e;
+  border: 2px solid var(--main-primary-color);
   transform: scale(1.04);
 }
 
@@ -783,7 +783,7 @@ body {
 }
 
 .contact-input:focus {
-  border: 1.5px solid #36b864;
+  border: 1.5px solid var(--main-primary-color);
 }
 
 .contact-btn {
